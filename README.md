@@ -1,6 +1,8 @@
-# Potter.com - E-commerce Platform for Pottery Products
+# Chunar Pottery - E-commerce
 
-Potter.com is a full-fledged **e-commerce platform** built using the **MERN stack**. It provides a secure and seamless shopping experience for pottery enthusiasts, allowing them to browse, purchase, and manage pottery products effortlessly. The platform integrates a **secure payment gateway**, ensuring safe transactions.
+The Chunar Pottery E-Commerce App is a dedicated platform for selling premium handcrafted pottery and artisanal products from the historic town of Chunar, Uttar Pradesh—renowned for its centuries-old pottery tradition. This app serves as a bridge between skilled artisans and global buyers, offering authentic, high-quality handmade ceramics and handicrafts while preserving and revitalizing Chunar’s cultural heritage.
+
+It is a full-fledged **e-commerce platform** built using the **MERN stack**. It provides a secure and seamless shopping experience for pottery enthusiasts, allowing them to browse, purchase, and manage pottery products effortlessly. The platform integrates a **secure payment gateway**, ensuring safe transactions.
 
 ## Features
 - **User Authentication**: Secure login and registration system using JWT/OAuth.
@@ -88,5 +90,5 @@ The application will be accessible at `http://localhost:3000/`.
 
 
 ## Contact
-For inquiries, contact me at: [2516abhi43@gmail.com](mailto:2516abhi43@gmail.com)
+For inquiries, contact me at: [utkarsh.cloudops@gmail.com](mailto:utkarsh.cloudops@gmail.com)
 
