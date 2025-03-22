@@ -1,0 +1,111 @@
+/* Shop.css */
+
+/* Shop Container */
+.shop-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #8d6248;
+    height: 150px;
+    overflow-y: hidden;
+}
+
+/* Heading */
+.shop-container h1 {
+    color: white;
+    margin: 50px;
+}
+
+/* Search Container */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 50px;
+   
+}
+
+.search-input {
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #8d6248;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.search-icon {
+    height: 30px;
+    width: 30px;
+    background-color: #8d6248;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Product List */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* No Results */
+.no-results {
+    font-size: 18px;
+    color: #8d6248;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Card Styles */
+.card {
+    border: 1px solid #8d6248;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #8d6248;
+}
+
+.card button {
+    background-color: #8d6248;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    border: 2px solid #8d6248;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
+
+.card button:hover {
+    background-color: white;
+    color: #8d6248;
+}

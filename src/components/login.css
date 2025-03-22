@@ -1,0 +1,104 @@
+/* src/components/login.css */
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7f7;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .login-title {
+    font-size: 2rem;
+    color: #8d6248; /* Pottery brand color */
+    margin-bottom: 20px;
+  }
+  
+  .login-form-container {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 300px;
+    align-items: center;
+  }
+  .login-form-container img{
+    margin-left: 60px;
+
+  }
+
+  
+  .email-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .email-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  .login-button {
+    padding: 10px;
+    background-color: #8d6248;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #7a5037;
+  }
+  
+  .toggle-signup {
+    background: none;
+    border: none;
+    color: #8d6248;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: underline;
+  }
+  
+  .or-divider {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .or-divider span {
+    font-size: 1rem;
+    color: #8d6248;
+  }
+  
+  .social-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .google-button {
+    background-color: #8d6248;
+    color: white;
+  }
+  
+  .github-button {
+    background-color: #8d6248;
+    color: white;
+  }
+  
+  .social-button:hover {
+    opacity: 0.8;
+  }
+  
