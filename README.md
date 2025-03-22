@@ -1,3 +1,5 @@
+![Chunar Pottery Banner](assets/cp_b.png)
+
 # Chunar Pottery - E-commerce
 
 The Chunar Pottery E-Commerce App is a dedicated platform for selling premium handcrafted pottery and artisanal products from the historic town of Chunar, Uttar Pradesh—renowned for its centuries-old pottery tradition. This app serves as a bridge between skilled artisans and global buyers, offering authentic, high-quality handmade ceramics and handicrafts while preserving and revitalizing Chunar’s cultural heritage.
