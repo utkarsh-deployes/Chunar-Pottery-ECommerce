@@ -1,0 +1,55 @@
+/* Sample.css */
+
+body {
+    margin: 0;
+   
+  }
+  
+  h1 {
+    text-align: center; /* Center the heading */
+    margin: 20px 0;
+    color: #8d6248;
+  }
+  
+  .marquee-container {
+    overflow: hidden; /* Hide overflow to keep cards within the container */
+    white-space: nowrap; /* Prevent line breaks in the marquee */
+    background-color: #f9f9f9; /* Optional: background color for the marquee */
+    padding: 20px 0; /* Optional: padding around the marquee */
+  }
+  
+  .marquee {
+    display: inline-block; /* Allows the marquee to display in a single line */
+    animation: marquee 15s linear infinite; /* Animation for scrolling */
+  }
+  
+  .card {
+    display: inline-block; /* Ensure cards are displayed in a row */
+    margin: 0 15px; /* Spacing between cards */
+    text-align: center; 
+    /* Center-align text in cards */
+    height: 300px;
+    width: 250px;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+  }
+  
+  .card img {
+    width: 150px; /* Set a width for the images */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .card h3{
+    margin-bottom: 2px;
+  }
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%); /* Start off-screen to the right */
+    }
+    100% {
+      transform: translateX(-100%); /* End off-screen to the left */
+    }
+  }
+  

@@ -1,0 +1,101 @@
+.about-container {
+    color: #8d6248;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  
+  .about-heading-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-heading {
+    font-size: 2.5rem;
+    margin: 20px 0;
+  }
+  
+  .decorative-line-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .decorative-line-container.small-line {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .decorative-line {
+    height: 2px;
+    background-color: #8b4513; /* Brown color */
+    flex: 1;
+  }
+  
+  .decorative-star {
+    font-size: 1.5rem;
+    color: #8b4513; /* Brown color */
+    margin: 0 10px;
+  }
+  
+  .about-content {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: justify;
+  }
+  
+  .founders {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
+  }
+  
+  .founder {
+    text-align: center;
+  }
+  
+  .founder-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .legacy-section {
+    position: relative;
+    text-align: center;
+    margin: 50px 0;
+     /* Adjusts the width of the entire section */
+    margin: 50px auto;
+    width: 100%;
+  }
+  
+  .legacy-image {
+    width: 98%;
+    height: 500px; /* Adjusted height */
+    object-fit: cover; /* Ensures the image retains its aspect ratio */
+    border: 5px solid #8d6248; /* Rounded corners for better design */
+  }
+  
+  .legacy-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;/* Semi-transparent background */
+    padding: 10px 20px;
+    border-radius: 10px;
+
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
