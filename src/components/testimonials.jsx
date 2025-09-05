@@ -1,5 +1,5 @@
 import React from 'react';
-import './Testimonials.css';
+import './testimonials.css';
 import { FaStar, FaStarHalfAlt } from 'react-icons/fa';
 
 // Importing images from the src folder
